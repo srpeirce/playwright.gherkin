@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <PackageTags>Playwright;Gherkin;Cucumber;Blazor</PackageTags>
+        <Summary>Test Blazor Components with FluentAssertions</Summary>
+        <Description>Opinonated library for writing Gherkin tests with Playwright</Description>
+        <PackageProjectUrl>https://github.com/srpeirce/playwright.gherkin</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/srpeirce/playwright.gherkin/blob/main/LICENSE</PackageLicenseUrl>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/srpeirce/playwright.gherkin</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Playwright.Gherkin\Playwright.Gherkin.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="xunit" Version="2.4.1" />
+    </ItemGroup>
+</Project>
